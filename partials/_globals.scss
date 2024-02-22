@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+body {
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+@media (max-width: 360px) {
+  body {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
