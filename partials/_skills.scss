@@ -1,0 +1,16 @@
+.skills {
+    padding-top: 1.5rem;
+  .skill {
+    padding-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px black solid;
+      border-radius: 1rem;
+      padding: 0.1rem 0.5rem;
+    }
+  }
+}

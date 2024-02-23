@@ -5,8 +5,38 @@
   font-family: "Outfit", sans-serif;
 }
 body {
-  padding-left: 20rem;
-  padding-right: 20rem;
+  padding-left: 18rem;
+  padding-right: 18rem;
+  p {
+    color: #7a7a82;
+  }
+}
+@media (max-width: 945px) {
+  body {
+    padding-left: 14rem;
+    padding-right: 10rem;
+  }
+}
+@media (max-width: 788px) {
+  body {
+    padding-left: 14rem;
+    padding-right: 10rem;
+  }
+}
+@media (max-width: 484px) {
+  body {
+    padding-left: 7rem;
+    padding-right: 7rem;
+    p {
+      color: #7a7a82;
+    }
+  }
+}
+@media (max-width: 428px) {
+  body {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 @media (max-width: 360px) {
   body {

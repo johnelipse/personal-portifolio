@@ -10,11 +10,25 @@
     object-fit: cover;
   }
 }
+@media (max-width: 484px) {
+  .intro {
+    padding-top: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    img {
+      width: 7rem;
+      height: 7rem;
+      object-fit: cover;
+    }
+  }
+}
 @media (max-width: 360px) {
   .intro {
     padding-top: 3rem;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     gap: 1.5rem;
     img {
