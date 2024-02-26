@@ -5,12 +5,10 @@
     display: flex;
     gap: 0.5rem;
     p {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border: 1px black solid;
+      font-size: 13.5px;
+      border: 1px gray solid;
       border-radius: 1rem;
-      padding: 0.1rem 0.5rem;
+      padding: 2px 1rem;
     }
   }
 }

@@ -23,9 +23,33 @@ body {
     padding-right: 10rem;
   }
 }
-@media (max-width: 484px) {
+@media (max-width: 720px) {
+  body {
+    padding-left: 9rem;
+    padding-right: 7rem;
+     }
+}
+@media (max-width: 615px) {
   body {
     padding-left: 7rem;
+    padding-right: 7rem;
+     }
+}
+@media (max-width: 570px) {
+  body {
+    padding-left: 7rem;
+    padding-right: 7rem;
+     }
+}
+@media (max-width: 520px) {
+  body {
+    padding-left: 3rem;
+    padding-right: 7rem;
+     }
+}
+@media (max-width: 484px) {
+  body {
+    padding-left: 6rem;
     padding-right: 7rem;
     p {
       color: #7a7a82;

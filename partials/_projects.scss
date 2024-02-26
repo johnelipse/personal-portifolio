@@ -1,275 +1,41 @@
 .projects {
-  padding-bottom: 4rem;
-  padding-top: 1.5rem;
+padding-top: 2rem;
   .project {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, (minmax(100px, 1fr)));
-    gap: 6rem;
     padding-top: 1rem;
-    border-radius: 2rem;
-    padding-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+.name{
+display: flex;
+justify-content: space-between;
+// gap: 3rem;
+padding-bottom: 1rem;
+a{
+text-decoration: none;
+color: black;
+    }
+  }
+  p{
+    font-size: 14px;
+  }
+  .languages {
+    padding-top: 1rem;
+    display: flex;
+    gap: 5px;
+    p {
+      border: 0.5px solid gray;
+      padding: 2px 1rem;
+      border-radius: 1rem;
+      font-size: 13px;
+    }
   }
   .first-project {
-    padding: 2rem 2rem;
-    border-radius: 2rem;
-    width: 310px;
-    height: 260px;
-
-    img {
-      border-top-left-radius: 1rem;
-      border-top-right-radius: 1rem;
-      width: 100%;
-      object-fit: cover;
-    }
-    .description {
-      padding: 1rem 0.5rem;
-      border-bottom-left-radius: 1rem;
-      border-bottom-right-radius: 1rem;
-      display: flex;
-      gap: 5rem;
-      background-color: black;
-      color: white;
-      h3 {
-        font-size: 12px;
-        padding-left: 0.5rem;
-      }
-      p {
-        font-weight: lighter;
-        font-size: 10px;
-        color: white;
-        padding-left: 0.5rem;
-      }
-      .languages {
-        display: flex;
-        gap: 0.5rem;
-      }
-    }
+    border: 0.5px solid gray;
+    padding: 1rem;
   }
 }
 @media (max-width: 945px) {
-  .projects {
-    padding-bottom: 4rem;
-    padding-top: 1.5rem;
-    .project {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, (minmax(700px, 1fr)));
-      gap: 4rem;
-      padding-top: 1rem;
-      border-radius: 2rem;
-      padding-bottom: 3rem;
-    }
-    .first-project {
-      padding: 2rem 2rem;
-      border-radius: 2rem;
-      width: 320px;
-      height: 260px;
-
-      img {
-        border-top-left-radius: 1rem;
-        border-top-right-radius: 1rem;
-        width: 100%;
-        object-fit: cover;
-      }
-      .description {
-        padding: 1rem 0.5rem;
-        border-bottom-left-radius: 1rem;
-        border-bottom-right-radius: 1rem;
-        display: flex;
-        gap: 5rem;
-        background-color: black;
-        color: white;
-        h3 {
-          font-size: 12px;
-          padding-left: 0.5rem;
-        }
-        p {
-          font-weight: lighter;
-          font-size: 10px;
-          color: white;
-          padding-left: 0.5rem;
-        }
-        .languages {
-          display: flex;
-          gap: 0.5rem;
-        }
-      }
-    }
-  }
 }
 @media (max-width: 788px) {
-  .projects {
-    padding-bottom: 4rem;
-    padding-top: 1.5rem;
-    .project {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, (minmax(700px, 1fr)));
-      gap: 4rem;
-      padding-top: 1rem;
-      border-radius: 2rem;
-      padding-bottom: 3rem;
-    }
-    .first-project {
-      padding: 2rem 2rem;
-      border-radius: 2rem;
-      width: 320px;
-      height: 260px;
-
-      img {
-        border-top-left-radius: 1rem;
-        border-top-right-radius: 1rem;
-        width: 100%;
-        object-fit: cover;
-      }
-      .description {
-        padding: 1rem 0.5rem;
-        border-bottom-left-radius: 1rem;
-        border-bottom-right-radius: 1rem;
-        display: flex;
-        gap: 5rem;
-        background-color: black;
-        color: white;
-        h3 {
-          font-size: 12px;
-          padding-left: 0.5rem;
-        }
-        p {
-          font-weight: lighter;
-          font-size: 10px;
-          color: white;
-          padding-left: 0.5rem;
-        }
-        .languages {
-          display: flex;
-          gap: 0.5rem;
-        }
-      }
-    }
-  }
-}
-@media (max-width: 484px) {
-  .projects {
-    width: 100%;
-    padding-bottom: 4rem;
-    padding-top: 1rem;
-    .project {
-      margin-left: 0rem;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, (minmax(300px, 1fr)));
-      gap: 2rem;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-    }
-    .first-project {
-      padding: 2rem 2rem;
-      width: 300px;
-      height: 300px;
-
-      img {
-        width: 100%;
-        object-fit: cover;
-      }
-      .description {
-        padding: 1rem 0.3rem;
-        display: flex;
-        gap: 4rem;
-        background-color: black;
-        color: white;
-        h3 {
-          font-size: 12px;
-        }
-        p {
-          font-weight: lighter;
-          font-size: 9px;
-        }
-        .languages {
-          display: flex;
-          gap: 0.5rem;
-        }
-      }
-    }
-  }
-}
-@media (max-width: 360px) {
-  .projects {
-    width: 100%;
-    padding-bottom: 4rem;
-    padding-top: 1rem;
-    .project {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, (minmax(300px, 1fr)));
-      gap: 2rem;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-    }
-    .first-project {
-      padding: 2rem 2rem;
-      width: 300px;
-      height: 300px;
-
-      img {
-        width: 100%;
-        object-fit: cover;
-      }
-      .description {
-        padding: 1rem 0.3rem;
-        display: flex;
-        gap: 4rem;
-        background-color: black;
-        color: white;
-        h3 {
-          font-size: 12px;
-        }
-        p {
-          font-weight: lighter;
-          font-size: 9px;
-        }
-        .languages {
-          display: flex;
-          gap: 0.5rem;
-        }
-      }
-    }
-  }
-}
-@media (max-width: 360px) {
-  .projects {
-    width: 100%;
-    padding-bottom: 4rem;
-    padding-top: 1rem;
-    .project {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, (minmax(300px, 1fr)));
-      gap: 2rem;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-    }
-    .first-project {
-      padding: 2rem 2rem;
-      width: 300px;
-      height: 300px;
-
-      img {
-        width: 100%;
-        object-fit: cover;
-      }
-      .description {
-        padding: 1rem 0.3rem;
-        display: flex;
-        gap: 4rem;
-        background-color: black;
-        color: white;
-        h3 {
-          font-size: 12px;
-        }
-        p {
-          font-weight: lighter;
-          font-size: 9px;
-        }
-        .languages {
-          display: flex;
-          gap: 0.5rem;
-        }
-      }
-    }
-  }
 }

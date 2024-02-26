@@ -26,9 +26,33 @@ body p {
     padding-right: 10rem;
   }
 }
-@media (max-width: 484px) {
+@media (max-width: 720px) {
+  body {
+    padding-left: 9rem;
+    padding-right: 7rem;
+  }
+}
+@media (max-width: 615px) {
   body {
     padding-left: 7rem;
+    padding-right: 7rem;
+  }
+}
+@media (max-width: 570px) {
+  body {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+}
+@media (max-width: 520px) {
+  body {
+    padding-left: 3rem;
+    padding-right: 7rem;
+  }
+}
+@media (max-width: 484px) {
+  body {
+    padding-left: 6rem;
     padding-right: 7rem;
   }
   body p {
@@ -171,282 +195,44 @@ body p {
   }
 }
 .projects {
-  padding-bottom: 4rem;
-  padding-top: 1.5rem;
+  padding-top: 2rem;
 }
 .projects .project {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  gap: 6rem;
   padding-top: 1rem;
-  border-radius: 2rem;
-  padding-bottom: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+.projects .name {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+.projects .name a {
+  text-decoration: none;
+  color: black;
+}
+.projects p {
+  font-size: 14px;
+}
+.projects .languages {
+  padding-top: 1rem;
+  display: flex;
+  gap: 5px;
+}
+.projects .languages p {
+  border: 0.5px solid gray;
+  padding: 2px 1rem;
+  border-radius: 1rem;
+  font-size: 13px;
 }
 .projects .first-project {
-  padding: 2rem 2rem;
-  border-radius: 2rem;
-  width: 310px;
-  height: 260px;
-}
-.projects .first-project img {
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.projects .first-project .description {
-  padding: 1rem 0.5rem;
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
-  display: flex;
-  gap: 5rem;
-  background-color: black;
-  color: white;
-}
-.projects .first-project .description h3 {
-  font-size: 12px;
-  padding-left: 0.5rem;
-}
-.projects .first-project .description p {
-  font-weight: lighter;
-  font-size: 10px;
-  color: white;
-  padding-left: 0.5rem;
-}
-.projects .first-project .description .languages {
-  display: flex;
-  gap: 0.5rem;
+  border: 0.5px solid gray;
+  padding: 1rem;
 }
 
-@media (max-width: 945px) {
-  .projects {
-    padding-bottom: 4rem;
-    padding-top: 1.5rem;
-  }
-  .projects .project {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
-    gap: 4rem;
-    padding-top: 1rem;
-    border-radius: 2rem;
-    padding-bottom: 3rem;
-  }
-  .projects .first-project {
-    padding: 2rem 2rem;
-    border-radius: 2rem;
-    width: 320px;
-    height: 260px;
-  }
-  .projects .first-project img {
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-    width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .projects .first-project .description {
-    padding: 1rem 0.5rem;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    display: flex;
-    gap: 5rem;
-    background-color: black;
-    color: white;
-  }
-  .projects .first-project .description h3 {
-    font-size: 12px;
-    padding-left: 0.5rem;
-  }
-  .projects .first-project .description p {
-    font-weight: lighter;
-    font-size: 10px;
-    color: white;
-    padding-left: 0.5rem;
-  }
-  .projects .first-project .description .languages {
-    display: flex;
-    gap: 0.5rem;
-  }
-}
-@media (max-width: 788px) {
-  .projects {
-    padding-bottom: 4rem;
-    padding-top: 1.5rem;
-  }
-  .projects .project {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
-    gap: 4rem;
-    padding-top: 1rem;
-    border-radius: 2rem;
-    padding-bottom: 3rem;
-  }
-  .projects .first-project {
-    padding: 2rem 2rem;
-    border-radius: 2rem;
-    width: 320px;
-    height: 260px;
-  }
-  .projects .first-project img {
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-    width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .projects .first-project .description {
-    padding: 1rem 0.5rem;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    display: flex;
-    gap: 5rem;
-    background-color: black;
-    color: white;
-  }
-  .projects .first-project .description h3 {
-    font-size: 12px;
-    padding-left: 0.5rem;
-  }
-  .projects .first-project .description p {
-    font-weight: lighter;
-    font-size: 10px;
-    color: white;
-    padding-left: 0.5rem;
-  }
-  .projects .first-project .description .languages {
-    display: flex;
-    gap: 0.5rem;
-  }
-}
-@media (max-width: 484px) {
-  .projects {
-    width: 100%;
-    padding-bottom: 4rem;
-    padding-top: 1rem;
-  }
-  .projects .project {
-    margin-left: 0rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-  .projects .first-project {
-    padding: 2rem 2rem;
-    width: 300px;
-    height: 300px;
-  }
-  .projects .first-project img {
-    width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .projects .first-project .description {
-    padding: 1rem 0.3rem;
-    display: flex;
-    gap: 4rem;
-    background-color: black;
-    color: white;
-  }
-  .projects .first-project .description h3 {
-    font-size: 12px;
-  }
-  .projects .first-project .description p {
-    font-weight: lighter;
-    font-size: 9px;
-  }
-  .projects .first-project .description .languages {
-    display: flex;
-    gap: 0.5rem;
-  }
-}
-@media (max-width: 360px) {
-  .projects {
-    width: 100%;
-    padding-bottom: 4rem;
-    padding-top: 1rem;
-  }
-  .projects .project {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-  .projects .first-project {
-    padding: 2rem 2rem;
-    width: 300px;
-    height: 300px;
-  }
-  .projects .first-project img {
-    width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .projects .first-project .description {
-    padding: 1rem 0.3rem;
-    display: flex;
-    gap: 4rem;
-    background-color: black;
-    color: white;
-  }
-  .projects .first-project .description h3 {
-    font-size: 12px;
-  }
-  .projects .first-project .description p {
-    font-weight: lighter;
-    font-size: 9px;
-  }
-  .projects .first-project .description .languages {
-    display: flex;
-    gap: 0.5rem;
-  }
-}
-@media (max-width: 360px) {
-  .projects {
-    width: 100%;
-    padding-bottom: 4rem;
-    padding-top: 1rem;
-  }
-  .projects .project {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-  .projects .first-project {
-    padding: 2rem 2rem;
-    width: 300px;
-    height: 300px;
-  }
-  .projects .first-project img {
-    width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .projects .first-project .description {
-    padding: 1rem 0.3rem;
-    display: flex;
-    gap: 4rem;
-    background-color: black;
-    color: white;
-  }
-  .projects .first-project .description h3 {
-    font-size: 12px;
-  }
-  .projects .first-project .description p {
-    font-weight: lighter;
-    font-size: 9px;
-  }
-  .projects .first-project .description .languages {
-    display: flex;
-    gap: 0.5rem;
-  }
-}
 .contacts {
+  padding-top: 1.5rem;
   padding-bottom: 3rem;
 }
 .contacts .contact {
@@ -458,7 +244,7 @@ body p {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0.5rem 0.5rem;
+  padding: 0.2rem 0.5rem;
   border-radius: 0.5rem;
   text-decoration: none;
   border: 1px solid blue;
@@ -466,6 +252,8 @@ body p {
 }
 .contacts .contact a:hover {
   background-color: rgba(131, 131, 131, 0.828);
+  border: 1px solid black;
+  transition: 0.8s;
 }
 .contacts .contact .bx {
   align-items: center;
@@ -532,10 +320,159 @@ body p {
   gap: 0.5rem;
 }
 .skills .skill p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px black solid;
+  font-size: 13.5px;
+  border: 1px gray solid;
   border-radius: 1rem;
-  padding: 0.1rem 0.5rem;
+  padding: 2px 1rem;
+}
+
+.conclusion {
+  padding: 2rem;
+}
+.conclusion .conclusions {
+  display: flex;
+  position: fixed;
+  bottom: 5%;
+  left: 32%;
+  gap: 3rem;
+  width: 30%;
+  border-radius: 3rem;
+  border: 1px solid gray;
+  padding: 0.5rem 1.5rem;
+}
+.conclusion .conclusions .status {
+  margin-left: 0.6rem;
+}
+.conclusion .conclusions .bx {
+  font-size: 1.5rem;
+  color: black;
+}
+.conclusion .more {
+  display: flex;
+  gap: 1rem;
+}
+.conclusion .layout {
+  display: flex;
+  gap: 1rem;
+}
+
+@media (max-width: 780px) {
+  .conclusion {
+    padding: 2rem;
+  }
+  .conclusion .conclusions {
+    display: flex;
+    position: fixed;
+    bottom: 5%;
+    left: 42.5%;
+    gap: 1rem;
+    width: 22.5%;
+    border-radius: 3rem;
+    border: 1px solid gray;
+    padding: 0.5rem 1.5rem;
+  }
+  .conclusion .conclusions .status {
+    margin-left: 0.6rem;
+  }
+  .conclusion .conclusions .bx {
+    font-size: 1.3rem;
+    color: black;
+  }
+  .conclusion .more {
+    display: flex;
+    gap: 0.4rem;
+  }
+  .conclusion .layout {
+    display: none;
+  }
+}
+@media (max-width: 520px) {
+  .conclusion {
+    padding: 2rem;
+  }
+  .conclusion .conclusions {
+    display: flex;
+    position: fixed;
+    bottom: 5%;
+    left: 31%;
+    gap: 1.5rem;
+    width: 34%;
+    border-radius: 3rem;
+    border: 1px solid gray;
+    padding: 0.5rem 1.5rem;
+  }
+  .conclusion .conclusions .status {
+    margin-left: 0.6rem;
+  }
+  .conclusion .conclusions .bx {
+    font-size: 1.2rem;
+    color: black;
+  }
+  .conclusion .more {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .conclusion .layout {
+    display: none;
+  }
+}
+@media (max-width: 484px) {
+  .conclusion {
+    padding: 2rem;
+  }
+  .conclusion .conclusions {
+    display: flex;
+    position: fixed;
+    bottom: 5%;
+    left: 33%;
+    gap: 1rem;
+    width: 35%;
+    border-radius: 3rem;
+    border: 1px solid gray;
+    padding: 0.5rem 1.5rem;
+  }
+  .conclusion .conclusions .status {
+    margin-left: 0.6rem;
+  }
+  .conclusion .conclusions .bx {
+    font-size: 1.2rem;
+    color: black;
+  }
+  .conclusion .more {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .conclusion .layout {
+    display: none;
+  }
+}
+@media (max-width: 360px) {
+  .conclusion {
+    padding: 2rem;
+  }
+  .conclusion .conclusions {
+    display: flex;
+    position: fixed;
+    bottom: 5%;
+    left: 25%;
+    gap: 1rem;
+    width: 47%;
+    border-radius: 3rem;
+    border: 1px solid gray;
+    padding: 0.5rem 1.5rem;
+  }
+  .conclusion .conclusions .status {
+    margin-left: 0.6rem;
+  }
+  .conclusion .conclusions .bx {
+    font-size: 1.2rem;
+    color: black;
+  }
+  .conclusion .more {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .conclusion .layout {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
