@@ -385,6 +385,8 @@ body p {
   padding: 2rem;
 }
 .conclusion .conclusions {
+  background-color: black;
+  color: white;
   display: flex;
   position: fixed;
   bottom: 5%;
@@ -400,7 +402,7 @@ body p {
 }
 .conclusion .conclusions .bx {
   font-size: 1.5rem;
-  color: black;
+  color: white;
 }
 .conclusion .enve:hover {
   transform: scale(0.9);
