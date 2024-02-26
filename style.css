@@ -347,6 +347,10 @@ body p {
   font-size: 1.5rem;
   color: black;
 }
+.conclusion .enve:hover {
+  transform: scale(0.9);
+  transition: 0.8s;
+}
 .conclusion .more {
   display: flex;
   gap: 1rem;
