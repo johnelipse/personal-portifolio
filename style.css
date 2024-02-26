@@ -298,6 +298,7 @@ body p {
 }
 .contacts .contact .bx {
   align-items: center;
+  margin-right: 7px;
 }
 
 @media (max-width: 788px) {
@@ -312,19 +313,17 @@ body p {
   }
   .contacts .contact a {
     display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 0.2rem 0.3rem;
     border-radius: 0.5rem;
     text-decoration: none;
     border: 1px solid blue;
-    align-items: center;
   }
   .contacts .contact a:hover {
     background-color: rgba(131, 131, 131, 0.828);
   }
   .contacts .contact .bx {
     align-items: center;
+    margin-right: 7px;
   }
 }
 @media (max-width: 360px) {
@@ -342,14 +341,15 @@ body p {
     padding: 0.5rem 0.5rem;
     border-radius: 0.5rem;
     text-decoration: none;
-    border: 1px solid blue;
-    align-items: center;
+    border: 1px solid black;
   }
   .contacts .contact a:hover {
-    background-color: rgba(131, 131, 131, 0.828);
+    background-color: black;
+    color: white;
   }
   .contacts .contact .bx {
     align-items: center;
+    margin-right: 7px;
   }
 }
 .skills {
