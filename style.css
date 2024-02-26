@@ -281,12 +281,13 @@ body p {
 }
 .contacts .contact a {
   display: flex;
+  color: black;
   align-items: center;
   justify-content: center;
   padding: 0.2rem 0.5rem;
   border-radius: 0.5rem;
   text-decoration: none;
-  border: 1px solid blue;
+  border: 1px solid black;
   align-items: center;
 }
 .contacts .contact a:hover {
