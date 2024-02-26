@@ -39,3 +39,42 @@ color: black;
 }
 @media (max-width: 788px) {
 }
+@media(max-width:360px){
+  .projects {
+    padding-top: 2rem;
+      .project {
+        padding-top: 1rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1rem;
+      }
+    .name{
+    display: flex;
+    justify-content: space-between;
+  align-items: center;
+    padding-bottom: 1rem;
+    a{
+    text-decoration: none;
+    color: black;
+        }
+      }
+      p{
+        font-size: 14px;
+      }
+      .languages {
+        padding-top: 1rem;
+        display: flex;
+        gap: 5px;
+        p {
+          border: 0.5px solid gray;
+          padding: 2px 1rem;
+          border-radius: 1rem;
+          font-size: 13px;
+        }
+      }
+      .first-project {
+        border: 0.5px solid gray;
+        padding: 1rem;
+      }
+    }  
+}
