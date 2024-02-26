@@ -291,9 +291,10 @@ body p {
   align-items: center;
 }
 .contacts .contact a:hover {
-  background-color: rgba(131, 131, 131, 0.828);
+  color: white;
+  background-color: black;
   border: 1px solid black;
-  transition: 0.8s;
+  transition: 0.5s;
 }
 .contacts .contact .bx {
   align-items: center;

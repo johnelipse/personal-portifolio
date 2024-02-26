@@ -13,9 +13,10 @@
       padding: 0.2rem 0.5rem;
       border-radius: 0.5rem;
       &:hover {
-        background-color: rgba(131, 131, 131, 0.828);
+        color: white;
+        background-color: black;
         border: 1px solid black;
-        transition: 0.8s;
+        transition: 0.5s;
       }
       text-decoration: none;
       border: 1px solid black;
