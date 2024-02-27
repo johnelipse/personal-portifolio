@@ -43,10 +43,11 @@
         padding: 0.2rem 0.3rem;
         border-radius: 0.5rem;
         &:hover {
-          background-color: rgba(131, 131, 131, 0.828);
+          background-color: black;
+          color: white;
         }
         text-decoration: none;
-        border: 1px solid blue;
+        border: 1px solid black;
         // align-items: center;
       }
       .bx {

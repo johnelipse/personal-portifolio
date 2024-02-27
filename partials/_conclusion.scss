@@ -154,6 +154,37 @@ gap: 1rem;
     }
     } 
 }
+@media(max-width:416px){
+    .conclusion{
+    
+        padding: 2rem;
+    .conclusions{
+    display: flex;
+    position: fixed;
+    bottom: 5%; 
+    left: 28%;
+    gap: 1rem;
+    width: 42%;
+    border-radius: 3rem;
+    .status{
+    margin-left: 0.6rem;
+    }
+    .bx{
+        font-size: 1.2rem;
+        color: white;
+    }
+        border: 1px solid gray;
+        padding: 0.5rem 1.5rem;
+    }
+    .more{
+    display: flex;
+    gap: 0.5rem;
+    }
+    .layout{
+        display: none;
+    }
+    }    
+}
 @media(max-width:360px){
     .conclusion{
     

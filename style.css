@@ -227,6 +227,7 @@ body p {
   font-size: 13px;
 }
 .projects .first-project {
+  border-radius: 10px;
   border: 0.5px solid gray;
   padding: 1rem;
 }
@@ -316,10 +317,11 @@ body p {
     padding: 0.2rem 0.3rem;
     border-radius: 0.5rem;
     text-decoration: none;
-    border: 1px solid blue;
+    border: 1px solid black;
   }
   .contacts .contact a:hover {
-    background-color: rgba(131, 131, 131, 0.828);
+    background-color: black;
+    color: white;
   }
   .contacts .contact .bx {
     align-items: center;
@@ -526,6 +528,36 @@ body p {
   }
   .conclusion .conclusions .status {
     margin-left: 0.4rem;
+  }
+  .conclusion .conclusions .bx {
+    font-size: 1.2rem;
+    color: white;
+  }
+  .conclusion .more {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .conclusion .layout {
+    display: none;
+  }
+}
+@media (max-width: 416px) {
+  .conclusion {
+    padding: 2rem;
+  }
+  .conclusion .conclusions {
+    display: flex;
+    position: fixed;
+    bottom: 5%;
+    left: 28%;
+    gap: 1rem;
+    width: 42%;
+    border-radius: 3rem;
+    border: 1px solid gray;
+    padding: 0.5rem 1.5rem;
+  }
+  .conclusion .conclusions .status {
+    margin-left: 0.6rem;
   }
   .conclusion .conclusions .bx {
     font-size: 1.2rem;
