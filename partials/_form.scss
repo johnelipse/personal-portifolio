@@ -1,0 +1,545 @@
+.form {
+  padding-bottom: 3rem;
+}
+form {
+  margin: 0.1rem auto;
+  width: 600px;
+  background: url(/imges/boy-walking-alone-night.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem;
+  border-radius: 1rem;
+  h2 {
+    color: white;
+    text-align: center;
+  }
+  .form-input {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.2rem;
+  }
+  input,
+  textarea {
+    margin-top: 0.2rem;
+    color: white;
+    padding: 5px 18px;
+    border: 1px solid gray;
+    background-color: transparent;
+    outline: none;
+    border-radius: 5px;
+    font-size: 17px;
+  }
+  textarea {
+    resize: none;
+  }
+  input:focus,
+  textarea:focus {
+    border: 1px solid blue;
+    outline: blue;
+  }
+  .button {
+    text-align: end;
+  }
+  button {
+    cursor: pointer;
+    background-color: blue;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 16px;
+    margin-top: 1rem;
+    padding: 0.4rem 1rem;
+    &:hover{
+        transform: scale(0.9);
+        transition: 0.5s;
+    }
+}
+}
+@media (max-width: 788px) {
+  form {
+margin-left: 0.3rem;
+    width: 480px;
+    background: url(/imges/boy-walking-alone-night.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+    border-radius: 1rem;
+    h2 {
+      color: white;
+      text-align: center;
+    }
+    .form-input {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      margin-top: 1rem;
+    }
+    input,
+    textarea {
+      margin-top: 0.2rem;
+      color: white;
+      padding: 5px 18px;
+      border: 1px solid gray;
+      background-color: transparent;
+      outline: none;
+      border-radius: 5px;
+      font-size: 15px;
+    }
+    textarea {
+      resize: none;
+    }
+    input:focus,
+    textarea:focus {
+      border: 1px solid blue;
+      outline: blue;
+    }
+    .button {
+      text-align: end;
+    }
+    button {
+      cursor: pointer;
+      background-color: blue;
+      border: none;
+      border-radius: 0.5rem;
+      color: white;
+      font-size: 15px;
+      margin-top: 1rem;
+      padding: 0.4rem 1rem;
+    }
+  }
+}
+@media (max-width: 720px) {
+  form {
+margin-left: 0.3rem;
+    width: 450px;
+    background: url(/imges/boy-walking-alone-night.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+    border-radius: 1rem;
+    h2 {
+      color: white;
+      text-align: center;
+    }
+    .form-input {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      margin-top: 1rem;
+    }
+    input,
+    textarea {
+      margin-top: 0.2rem;
+      color: white;
+      padding: 5px 18px;
+      border: 1px solid gray;
+      background-color: transparent;
+      outline: none;
+      border-radius: 5px;
+      font-size: 15px;
+    }
+    textarea {
+      resize: none;
+    }
+    input:focus,
+    textarea:focus {
+      border: 1px solid blue;
+      outline: blue;
+    }
+    .button {
+      text-align: end;
+    }
+    button {
+      cursor: pointer;
+      background-color: blue;
+      border: none;
+      border-radius: 0.5rem;
+      color: white;
+      font-size: 15px;
+      margin-top: 1rem;
+      padding: 0.4rem 1rem;
+    }
+  }
+}
+@media (max-width: 615px) {
+  form {
+margin-left: 0.3rem;
+    width: 430px;
+    background: url(/imges/boy-walking-alone-night.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+    border-radius: 1rem;
+    h2 {
+      color: white;
+      text-align: center;
+    }
+    .form-input {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      margin-top: 1rem;
+    }
+    input,
+    textarea {
+      margin-top: 0.2rem;
+      color: white;
+      padding: 5px 18px;
+      border: 1px solid gray;
+      background-color: transparent;
+      outline: none;
+      border-radius: 5px;
+      font-size: 15px;
+    }
+    textarea {
+      resize: none;
+    }
+    input:focus,
+    textarea:focus {
+      border: 1px solid blue;
+      outline: blue;
+    }
+    .button {
+      text-align: end;
+    }
+    button {
+      cursor: pointer;
+      background-color: blue;
+      border: none;
+      border-radius: 0.5rem;
+      color: white;
+      font-size: 15px;
+      margin-top: 1rem;
+      padding: 0.4rem 1rem;
+    }
+  }
+}
+@media (max-width: 570px) {
+  form {
+margin-left: 0.3rem;
+    width: 400px;
+    background: url(/imges/boy-walking-alone-night.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+    border-radius: 1rem;
+    h2 {
+      color: white;
+      text-align: center;
+    }
+    .form-input {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      margin-top: 1rem;
+    }
+    input,
+    textarea {
+      margin-top: 0.2rem;
+      color: white;
+      padding: 5px 18px;
+      border: 1px solid gray;
+      background-color: transparent;
+      outline: none;
+      border-radius: 5px;
+      font-size: 15px;
+    }
+    textarea {
+      resize: none;
+    }
+    input:focus,
+    textarea:focus {
+      border: 1px solid blue;
+      outline: blue;
+    }
+    .button {
+      text-align: end;
+    }
+    button {
+      cursor: pointer;
+      background-color: blue;
+      border: none;
+      border-radius: 0.5rem;
+      color: white;
+      font-size: 15px;
+      margin-top: 1rem;
+      padding: 0.4rem 1rem;
+    }
+  }
+}
+@media (max-width: 520px) {
+  form {
+margin-left: 0.3rem;
+    width: 400px;
+    background: url(/imges/boy-walking-alone-night.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+    border-radius: 1rem;
+    h2 {
+      color: white;
+      text-align: center;
+    }
+    .form-input {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      margin-top: 1rem;
+    }
+    input,
+    textarea {
+      margin-top: 0.2rem;
+      color: white;
+      padding: 5px 18px;
+      border: 1px solid gray;
+      background-color: transparent;
+      outline: none;
+      border-radius: 5px;
+      font-size: 15px;
+    }
+    textarea {
+      resize: none;
+    }
+    input:focus,
+    textarea:focus {
+      border: 1px solid blue;
+      outline: blue;
+    }
+    .button {
+      text-align: end;
+    }
+    button {
+      cursor: pointer;
+      background-color: blue;
+      border: none;
+      border-radius: 0.5rem;
+      color: white;
+      font-size: 15px;
+      margin-top: 1rem;
+      padding: 0.4rem 1rem;
+    }
+  }
+}
+@media (max-width: 484px) {
+  form {
+margin-left: 0.3rem;
+    width: 380px;
+    background: url(/imges/boy-walking-alone-night.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+    border-radius: 1rem;
+    h2 {
+      color: white;
+      text-align: center;
+    }
+    .form-input {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      margin-top: 1rem;
+    }
+    input,
+    textarea {
+      margin-top: 0.2rem;
+      color: white;
+      padding: 5px 18px;
+      border: 1px solid gray;
+      background-color: transparent;
+      outline: none;
+      border-radius: 5px;
+      font-size: 15px;
+    }
+    textarea {
+      resize: none;
+    }
+    input:focus,
+    textarea:focus {
+      border: 1px solid blue;
+      outline: blue;
+    }
+    .button {
+      text-align: end;
+    }
+    button {
+      cursor: pointer;
+      background-color: blue;
+      border: none;
+      border-radius: 0.5rem;
+      color: white;
+      font-size: 15px;
+      margin-top: 1rem;
+      padding: 0.4rem 1rem;
+    }
+  }
+}
+@media (max-width: 416px) {
+  form {
+margin-left: 0.3rem;
+    width: 350px;
+    background: url(/imges/boy-walking-alone-night.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+    border-radius: 1rem;
+    h2 {
+      color: white;
+      text-align: center;
+    }
+    .form-input {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      margin-top: 1rem;
+    }
+    input,
+    textarea {
+      margin-top: 0.2rem;
+      color: white;
+      padding: 5px 18px;
+      border: 1px solid gray;
+      background-color: transparent;
+      outline: none;
+      border-radius: 5px;
+      font-size: 15px;
+    }
+    textarea {
+      resize: none;
+    }
+    input:focus,
+    textarea:focus {
+      border: 1px solid blue;
+      outline: blue;
+    }
+    .button {
+      text-align: end;
+    }
+    button {
+      cursor: pointer;
+      background-color: blue;
+      border: none;
+      border-radius: 0.5rem;
+      color: white;
+      font-size: 15px;
+      margin-top: 1rem;
+      padding: 0.4rem 1rem;
+    }
+  }
+}
+@media (max-width: 394px) {
+  form {
+margin-left: 0.3rem;
+    width: 315px;
+    background: url(/imges/boy-walking-alone-night.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+    border-radius: 1rem;
+    h2 {
+      color: white;
+      text-align: center;
+    }
+    .form-input {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      margin-top: 1rem;
+    }
+    input,
+    textarea {
+      margin-top: 0.2rem;
+      color: white;
+      padding: 5px 18px;
+      border: 1px solid gray;
+      background-color: transparent;
+      outline: none;
+      border-radius: 5px;
+      font-size: 15px;
+    }
+    textarea {
+      resize: none;
+    }
+    input:focus,
+    textarea:focus {
+      border: 1px solid blue;
+      outline: blue;
+    }
+    .button {
+      text-align: end;
+    }
+    button {
+      cursor: pointer;
+      background-color: blue;
+      border: none;
+      border-radius: 0.5rem;
+      color: white;
+      font-size: 15px;
+      margin-top: 1rem;
+      padding: 0.4rem 1rem;
+    }
+  }
+}
+@media (max-width: 360px) {
+  form {
+    margin: 0 auto;
+    width: 300px;
+    background: url(/imges/boy-walking-alone-night.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+    border-radius: 1rem;
+    h2 {
+      color: white;
+      text-align: center;
+    }
+    .form-input {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      margin-top: 1rem;
+    }
+    input,
+    textarea {
+      margin-top: 0.2rem;
+      color: white;
+      padding: 5px 18px;
+      border: 1px solid gray;
+      background-color: transparent;
+      outline: none;
+      border-radius: 5px;
+      font-size: 15px;
+    }
+    textarea {
+      resize: none;
+    }
+    input:focus,
+    textarea:focus {
+      border: 1px solid blue;
+      outline: blue;
+    }
+    .button {
+      text-align: end;
+    }
+    button {
+      cursor: pointer;
+      background-color: blue;
+      border: none;
+      border-radius: 0.5rem;
+      color: white;
+      font-size: 15px;
+      margin-top: 1rem;
+      padding: 0.4rem 1rem;
+    }
+  }
+}

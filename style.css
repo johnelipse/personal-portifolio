@@ -16,13 +16,13 @@ body p {
 
 @media (max-width: 945px) {
   body {
-    padding-left: 14rem;
+    padding-left: 12rem;
     padding-right: 10rem;
   }
 }
 @media (max-width: 788px) {
   body {
-    padding-left: 14rem;
+    padding-left: 9rem;
     padding-right: 10rem;
   }
 }
@@ -34,13 +34,13 @@ body p {
 }
 @media (max-width: 615px) {
   body {
-    padding-left: 7rem;
+    padding-left: 6rem;
     padding-right: 7rem;
   }
 }
 @media (max-width: 570px) {
   body {
-    padding-left: 7rem;
+    padding-left: 6rem;
     padding-right: 7rem;
   }
 }
@@ -52,7 +52,7 @@ body p {
 }
 @media (max-width: 484px) {
   body {
-    padding-left: 6rem;
+    padding-left: 3rem;
     padding-right: 7rem;
   }
   body p {
@@ -321,7 +321,7 @@ body p {
 
 @media (max-width: 788px) {
   .contacts {
-    padding-bottom: 3rem;
+    padding-bottom: 0.1rem;
   }
   .contacts .contact {
     flex-direction: column;
@@ -348,7 +348,7 @@ body p {
 @media (max-width: 360px) {
   .contacts {
     padding-top: 1.5rem;
-    padding-bottom: 3rem;
+    padding-bottom: 0.1rem;
   }
   .contacts .contact {
     display: flex;
@@ -438,7 +438,44 @@ body p {
   gap: 1rem;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 945px) {
+  .conclusion {
+    padding: 2rem;
+  }
+  .conclusion .conclusions {
+    background-color: black;
+    color: white;
+    display: flex;
+    position: fixed;
+    bottom: 5%;
+    left: 32%;
+    gap: 3rem;
+    width: 43%;
+    border-radius: 3rem;
+    border: 1px solid gray;
+    padding: 0.5rem 1.5rem;
+  }
+  .conclusion .conclusions .status {
+    margin-left: 0.6rem;
+  }
+  .conclusion .conclusions .bx {
+    font-size: 1.5rem;
+    color: white;
+  }
+  .conclusion .enve:hover {
+    transform: scale(0.9);
+    transition: 0.8s;
+  }
+  .conclusion .more {
+    display: flex;
+    gap: 1rem;
+  }
+  .conclusion .layout {
+    display: flex;
+    gap: 1rem;
+  }
+}
+@media (max-width: 788px) {
   .conclusion {
     padding: 2rem;
   }
@@ -463,6 +500,96 @@ body p {
   .conclusion .more {
     display: flex;
     gap: 0.4rem;
+  }
+  .conclusion .layout {
+    display: none;
+  }
+}
+@media (max-width: 720px) {
+  .conclusion {
+    padding: 2rem;
+  }
+  .conclusion .conclusions {
+    display: flex;
+    position: fixed;
+    bottom: 5%;
+    left: 36%;
+    gap: 2rem;
+    width: 29%;
+    border-radius: 3rem;
+    border: 1px solid gray;
+    padding: 0.5rem 1.5rem;
+  }
+  .conclusion .conclusions .status {
+    margin-left: 0.6rem;
+  }
+  .conclusion .conclusions .bx {
+    font-size: 1.4rem;
+    color: white;
+  }
+  .conclusion .more {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .conclusion .layout {
+    display: none;
+  }
+}
+@media (max-width: 615px) {
+  .conclusion {
+    padding: 2rem;
+  }
+  .conclusion .conclusions {
+    display: flex;
+    position: fixed;
+    bottom: 5%;
+    left: 36%;
+    gap: 2rem;
+    width: 34%;
+    border-radius: 3rem;
+    border: 1px solid gray;
+    padding: 0.5rem 1.5rem;
+  }
+  .conclusion .conclusions .status {
+    margin-left: 0.6rem;
+  }
+  .conclusion .conclusions .bx {
+    font-size: 1.4rem;
+    color: white;
+  }
+  .conclusion .more {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .conclusion .layout {
+    display: none;
+  }
+}
+@media (max-width: 570px) {
+  .conclusion {
+    padding: 2rem;
+  }
+  .conclusion .conclusions {
+    display: flex;
+    position: fixed;
+    bottom: 5%;
+    left: 31%;
+    gap: 1.5rem;
+    width: 34%;
+    border-radius: 3rem;
+    border: 1px solid gray;
+    padding: 0.5rem 1.5rem;
+  }
+  .conclusion .conclusions .status {
+    margin-left: 0.6rem;
+  }
+  .conclusion .conclusions .bx {
+    font-size: 1.2rem;
+    color: white;
+  }
+  .conclusion .more {
+    display: flex;
+    gap: 0.5rem;
   }
   .conclusion .layout {
     display: none;
@@ -588,9 +715,39 @@ body p {
     display: none;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 394px) {
   .conclusion {
     padding: 2rem;
+  }
+  .conclusion .conclusions {
+    display: flex;
+    position: fixed;
+    bottom: 5%;
+    left: 28%;
+    gap: 1rem;
+    width: 45%;
+    border-radius: 3rem;
+    border: 1px solid gray;
+    padding: 0.5rem 1.5rem;
+  }
+  .conclusion .conclusions .status {
+    margin-left: 0.6rem;
+  }
+  .conclusion .conclusions .bx {
+    font-size: 1.2rem;
+    color: white;
+  }
+  .conclusion .more {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .conclusion .layout {
+    display: none;
+  }
+}
+@media (max-width: 360px) {
+  .conclusion {
+    padding: 0.2rem 1rem;
   }
   .conclusion .conclusions {
     display: flex;
@@ -616,5 +773,552 @@ body p {
   }
   .conclusion .layout {
     display: none;
+  }
+}
+.form {
+  padding-bottom: 3rem;
+}
+
+form {
+  margin: 0.1rem auto;
+  width: 600px;
+  background: url(/imges/boy-walking-alone-night.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+form h2 {
+  color: white;
+  text-align: center;
+}
+form .form-input {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.2rem;
+}
+form input,
+form textarea {
+  margin-top: 0.2rem;
+  color: white;
+  padding: 5px 18px;
+  border: 1px solid gray;
+  background-color: transparent;
+  outline: none;
+  border-radius: 5px;
+  font-size: 17px;
+}
+form textarea {
+  resize: none;
+}
+form input:focus,
+form textarea:focus {
+  border: 1px solid blue;
+  outline: blue;
+}
+form .button {
+  text-align: end;
+}
+form button {
+  cursor: pointer;
+  background-color: blue;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 16px;
+  margin-top: 1rem;
+  padding: 0.4rem 1rem;
+}
+form button:hover {
+  transform: scale(0.9);
+  transition: 0.5s;
+}
+
+@media (max-width: 788px) {
+  form {
+    margin-left: 0.3rem;
+    width: 480px;
+    background: url(/imges/boy-walking-alone-night.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  form h2 {
+    color: white;
+    text-align: center;
+  }
+  form .form-input {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  form input,
+  form textarea {
+    margin-top: 0.2rem;
+    color: white;
+    padding: 5px 18px;
+    border: 1px solid gray;
+    background-color: transparent;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  form textarea {
+    resize: none;
+  }
+  form input:focus,
+  form textarea:focus {
+    border: 1px solid blue;
+    outline: blue;
+  }
+  form .button {
+    text-align: end;
+  }
+  form button {
+    cursor: pointer;
+    background-color: blue;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 15px;
+    margin-top: 1rem;
+    padding: 0.4rem 1rem;
+  }
+}
+@media (max-width: 720px) {
+  form {
+    margin-left: 0.3rem;
+    width: 450px;
+    background: url(/imges/boy-walking-alone-night.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  form h2 {
+    color: white;
+    text-align: center;
+  }
+  form .form-input {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  form input,
+  form textarea {
+    margin-top: 0.2rem;
+    color: white;
+    padding: 5px 18px;
+    border: 1px solid gray;
+    background-color: transparent;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  form textarea {
+    resize: none;
+  }
+  form input:focus,
+  form textarea:focus {
+    border: 1px solid blue;
+    outline: blue;
+  }
+  form .button {
+    text-align: end;
+  }
+  form button {
+    cursor: pointer;
+    background-color: blue;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 15px;
+    margin-top: 1rem;
+    padding: 0.4rem 1rem;
+  }
+}
+@media (max-width: 615px) {
+  form {
+    margin-left: 0.3rem;
+    width: 430px;
+    background: url(/imges/boy-walking-alone-night.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  form h2 {
+    color: white;
+    text-align: center;
+  }
+  form .form-input {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  form input,
+  form textarea {
+    margin-top: 0.2rem;
+    color: white;
+    padding: 5px 18px;
+    border: 1px solid gray;
+    background-color: transparent;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  form textarea {
+    resize: none;
+  }
+  form input:focus,
+  form textarea:focus {
+    border: 1px solid blue;
+    outline: blue;
+  }
+  form .button {
+    text-align: end;
+  }
+  form button {
+    cursor: pointer;
+    background-color: blue;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 15px;
+    margin-top: 1rem;
+    padding: 0.4rem 1rem;
+  }
+}
+@media (max-width: 570px) {
+  form {
+    margin-left: 0.3rem;
+    width: 400px;
+    background: url(/imges/boy-walking-alone-night.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  form h2 {
+    color: white;
+    text-align: center;
+  }
+  form .form-input {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  form input,
+  form textarea {
+    margin-top: 0.2rem;
+    color: white;
+    padding: 5px 18px;
+    border: 1px solid gray;
+    background-color: transparent;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  form textarea {
+    resize: none;
+  }
+  form input:focus,
+  form textarea:focus {
+    border: 1px solid blue;
+    outline: blue;
+  }
+  form .button {
+    text-align: end;
+  }
+  form button {
+    cursor: pointer;
+    background-color: blue;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 15px;
+    margin-top: 1rem;
+    padding: 0.4rem 1rem;
+  }
+}
+@media (max-width: 520px) {
+  form {
+    margin-left: 0.3rem;
+    width: 400px;
+    background: url(/imges/boy-walking-alone-night.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  form h2 {
+    color: white;
+    text-align: center;
+  }
+  form .form-input {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  form input,
+  form textarea {
+    margin-top: 0.2rem;
+    color: white;
+    padding: 5px 18px;
+    border: 1px solid gray;
+    background-color: transparent;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  form textarea {
+    resize: none;
+  }
+  form input:focus,
+  form textarea:focus {
+    border: 1px solid blue;
+    outline: blue;
+  }
+  form .button {
+    text-align: end;
+  }
+  form button {
+    cursor: pointer;
+    background-color: blue;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 15px;
+    margin-top: 1rem;
+    padding: 0.4rem 1rem;
+  }
+}
+@media (max-width: 484px) {
+  form {
+    margin-left: 0.3rem;
+    width: 380px;
+    background: url(/imges/boy-walking-alone-night.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  form h2 {
+    color: white;
+    text-align: center;
+  }
+  form .form-input {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  form input,
+  form textarea {
+    margin-top: 0.2rem;
+    color: white;
+    padding: 5px 18px;
+    border: 1px solid gray;
+    background-color: transparent;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  form textarea {
+    resize: none;
+  }
+  form input:focus,
+  form textarea:focus {
+    border: 1px solid blue;
+    outline: blue;
+  }
+  form .button {
+    text-align: end;
+  }
+  form button {
+    cursor: pointer;
+    background-color: blue;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 15px;
+    margin-top: 1rem;
+    padding: 0.4rem 1rem;
+  }
+}
+@media (max-width: 416px) {
+  form {
+    margin-left: 0.3rem;
+    width: 350px;
+    background: url(/imges/boy-walking-alone-night.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  form h2 {
+    color: white;
+    text-align: center;
+  }
+  form .form-input {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  form input,
+  form textarea {
+    margin-top: 0.2rem;
+    color: white;
+    padding: 5px 18px;
+    border: 1px solid gray;
+    background-color: transparent;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  form textarea {
+    resize: none;
+  }
+  form input:focus,
+  form textarea:focus {
+    border: 1px solid blue;
+    outline: blue;
+  }
+  form .button {
+    text-align: end;
+  }
+  form button {
+    cursor: pointer;
+    background-color: blue;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 15px;
+    margin-top: 1rem;
+    padding: 0.4rem 1rem;
+  }
+}
+@media (max-width: 394px) {
+  form {
+    margin-left: 0.3rem;
+    width: 315px;
+    background: url(/imges/boy-walking-alone-night.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  form h2 {
+    color: white;
+    text-align: center;
+  }
+  form .form-input {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  form input,
+  form textarea {
+    margin-top: 0.2rem;
+    color: white;
+    padding: 5px 18px;
+    border: 1px solid gray;
+    background-color: transparent;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  form textarea {
+    resize: none;
+  }
+  form input:focus,
+  form textarea:focus {
+    border: 1px solid blue;
+    outline: blue;
+  }
+  form .button {
+    text-align: end;
+  }
+  form button {
+    cursor: pointer;
+    background-color: blue;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 15px;
+    margin-top: 1rem;
+    padding: 0.4rem 1rem;
+  }
+}
+@media (max-width: 360px) {
+  form {
+    margin: 0 auto;
+    width: 300px;
+    background: url(/imges/boy-walking-alone-night.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  form h2 {
+    color: white;
+    text-align: center;
+  }
+  form .form-input {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  form input,
+  form textarea {
+    margin-top: 0.2rem;
+    color: white;
+    padding: 5px 18px;
+    border: 1px solid gray;
+    background-color: transparent;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  form textarea {
+    resize: none;
+  }
+  form input:focus,
+  form textarea:focus {
+    border: 1px solid blue;
+    outline: blue;
+  }
+  form .button {
+    text-align: end;
+  }
+  form button {
+    cursor: pointer;
+    background-color: blue;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 15px;
+    margin-top: 1rem;
+    padding: 0.4rem 1rem;
   }
 }/*# sourceMappingURL=style.css.map */

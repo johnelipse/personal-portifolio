@@ -30,7 +30,7 @@
 }
 @media (max-width: 788px) {
   .contacts {
-    padding-bottom: 3rem;
+    padding-bottom: 0.1rem;
     .contact {
       flex-direction: column;
       display: flex;
@@ -60,7 +60,7 @@
 @media (max-width: 360px) {
   .contacts {
     padding-top: 1.5rem;
-    padding-bottom: 3rem;
+    padding-bottom: 0.1rem;
     .contact {
       display: flex;
       flex-direction: column;
