@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -1320,5 +1321,267 @@ form button:hover {
     font-size: 15px;
     margin-top: 1rem;
     padding: 0.4rem 1rem;
+  }
+}
+.end-page {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+.end-page .thank-you .image-thanks {
+  text-align: center;
+}
+.end-page .thank-you h3 {
+  font-size: 4.5rem;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+}
+.end-page .thank-you p {
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem 15rem;
+  color: white;
+  font-weight: lighter;
+}
+.end-page .thank-you .button-2 {
+  text-align: center;
+}
+.end-page .thank-you a {
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 1.3rem;
+}
+.end-page .thank-you a:hover {
+  transform: scale(0.9);
+  transition: 0.5s;
+}
+
+@media (max-width: 788px) {
+  .end-page {
+    font-family: "Lato", sans-serif;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+  }
+  .end-page .thank-you .image-thanks {
+    text-align: center;
+  }
+  .end-page .thank-you h3 {
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+  }
+  .end-page .thank-you p {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1.5rem 5rem;
+    color: white;
+    font-weight: lighter;
+  }
+  .end-page .thank-you .button-2 {
+    text-align: center;
+  }
+  .end-page .thank-you a {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  .end-page .thank-you a:hover {
+    transform: scale(0.9);
+    transition: 0.5s;
+  }
+}
+@media (max-width: 640) {
+  .end-page {
+    font-family: "Lato", sans-serif;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+  }
+  .end-page .thank-you .image-thanks {
+    text-align: center;
+  }
+  .end-page .thank-you h3 {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+  }
+  .end-page .thank-you p {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: auto;
+    color: white;
+    font-weight: lighter;
+  }
+  .end-page .thank-you .button-2 {
+    text-align: center;
+  }
+  .end-page .thank-you a {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  .end-page .thank-you a:hover {
+    transform: scale(0.9);
+    transition: 0.5s;
+  }
+}
+@media (max-width: 520px) {
+  .end-page {
+    font-family: "Lato", sans-serif;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+  }
+  .end-page .thank-you .image-thanks {
+    text-align: center;
+  }
+  .end-page .thank-you h3 {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+  }
+  .end-page .thank-you p {
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem 4rem;
+    color: white;
+    font-weight: lighter;
+  }
+  .end-page .thank-you .button-2 {
+    text-align: center;
+  }
+  .end-page .thank-you a {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  .end-page .thank-you a:hover {
+    transform: scale(0.9);
+    transition: 0.5s;
+  }
+}
+@media (max-width: 484px) {
+  .end-page {
+    font-family: "Lato", sans-serif;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+  }
+  .end-page .thank-you .image-thanks {
+    text-align: center;
+  }
+  .end-page .thank-you h3 {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+  }
+  .end-page .thank-you p {
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem 4rem;
+    color: white;
+    font-weight: lighter;
+  }
+  .end-page .thank-you .button-2 {
+    text-align: center;
+  }
+  .end-page .thank-you a {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  .end-page .thank-you a:hover {
+    transform: scale(0.9);
+    transition: 0.5s;
+  }
+}
+@media (max-width: 360px) {
+  .end-page {
+    font-family: "Lato", sans-serif;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+  }
+  .end-page .thank-you .image-thanks {
+    text-align: center;
+  }
+  .end-page .thank-you h3 {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+  }
+  .end-page .thank-you p {
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    color: white;
+    font-weight: lighter;
+  }
+  .end-page .thank-you .button-2 {
+    text-align: center;
+  }
+  .end-page .thank-you a {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  .end-page .thank-you a:hover {
+    transform: scale(0.9);
+    transition: 0.5s;
   }
 }/*# sourceMappingURL=style.css.map */
