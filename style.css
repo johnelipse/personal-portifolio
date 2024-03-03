@@ -1550,7 +1550,7 @@ form button:hover {
   .end-page {
     font-family: "Lato", sans-serif;
     display: flex;
-    min-height: 100vh;
+    min-height: 85vh;
     align-items: center;
     justify-content: center;
     padding: 0;
