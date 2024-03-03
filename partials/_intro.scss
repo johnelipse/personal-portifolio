@@ -6,8 +6,9 @@
   img {
     border-radius: 1rem;
     width: 7rem;
-    height: 7rem;
-    object-fit: cover;
+    height: 7.5rem;
+    object-fit: contain;
+    background-color: black;
   }
 }
 @media (max-width: 484px) {
