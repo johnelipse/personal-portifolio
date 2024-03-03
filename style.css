@@ -79,12 +79,14 @@ body p {
   gap: 1rem;
 }
 .intro img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.intro .image-21 {
+  background-color: black;
   border-radius: 1rem;
   width: 7rem;
   height: 7.5rem;
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-color: black;
 }
 
 @media (max-width: 484px) {

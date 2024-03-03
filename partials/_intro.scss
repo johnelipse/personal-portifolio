@@ -4,12 +4,14 @@
   align-items: center;
   gap: 1rem;
   img {
-    border-radius: 1rem;
-    width: 7rem;
-    height: 7.5rem;
     object-fit: contain;
-    background-color: black;
   }
+.image-21{
+  background-color: black;
+  border-radius: 1rem;
+  width: 7rem;
+  height: 7.5rem;
+}
 }
 @media (max-width: 484px) {
   .intro {
